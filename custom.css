@@ -8,6 +8,10 @@ body {
 	margin-left: 4px;
 }
 
+.content {
+	font-style: italic;
+}
+
 .type.badge {
 	float: left;
 	margin-left: 0;
@@ -28,6 +32,7 @@ body {
 .key {
 	padding: 0;
 	margin-right: 4px;
+	font-weight: bold;
 }
 
 .list-group .btn {

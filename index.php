@@ -1,4 +1,6 @@
 <?php
+	$file = 'test.json';
+
 	class Json {
 		protected $id;
 		protected $json_obj;
@@ -8,7 +10,6 @@
 		// $item must be valid JSON.
 		public function __construct($item) {
 			$this->id = ++Json::$count;
-			
 			$this->json_obj = json_decode($item);
 		}
 		
@@ -42,6 +43,7 @@
 			return count((array)$this->json_obj);	
 		}
 		
+		// Returns an HTML string representing all objects.
 		public function toString() {
 			$string  = '';
 			$props = $this->properties();
@@ -65,23 +67,30 @@
 			return $string;
 		}
 		
+		// Returns an HTML string representing one object.
 		private function printItem($name, $object) {
-			$badge = $sub_items = $data_toggle = $id = $id_string = '';
+			$col_size = 5;
+			$badge = $sub_items = $data_toggle = $id = $id_string = $content = '';
 			$type = strtolower(gettype($object));
 
+			// Creates string portion for sub-items.
 			if(is_array($object) || is_object($object)) {
 				$new_obj = new Json(json_encode($object));				
 				$id = $new_obj->id;
 				$id_string = "id='item-$id'";
 				$badge = "<span class='badge'>".count((array)$object)."</span>";
-				$data_toggle = "data-toggle='collapse' data-target='#item-$id ul'";
+				$data_toggle = "data-toggle='collapse' data-target='#item-$id > ul'";
 				$sub_items = "<ul class='collapse'>$new_obj</ul>";
+				$col_size = 8;
+			} else {
+				$content = "<div class='col-xs-3 content'>$object</div>";
 			}
 	
 			return "
 				<li class='list-group-item' $id_string>
 					<button class='btn' type='button' $data_toggle> 
-						<div class='col-xs-8 key'>$name</div>
+						<div class='col-xs-$col_size key'>$name</div>
+						$content
 						<span class='type $type badge' $data_toggle>$type</span>
 						$badge
 					</button>
@@ -91,7 +100,6 @@
 		}
 	}
 
-	$file = 'test.json';
 	$string = file_get_contents($file);
 	$json = new Json($string);	
 ?>
