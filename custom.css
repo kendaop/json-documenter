@@ -1,0 +1,46 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	padding: 8px;
+}
+
+.badge {
+	margin-left: 4px;
+}
+
+.type.badge {
+	float: left;
+	margin-left: 0;
+}
+
+.type.array {
+	color: #FF8822;
+}
+
+.type.integer {
+	color: #22FF88;
+}
+
+.type.null {
+	color: #FF4444;
+}
+
+.key {
+	padding: 0;
+	margin-right: 4px;
+}
+
+.list-group .btn {
+	width: 100%;
+	background-color: white;
+	padding: 0;
+	text-align: left;
+}
+
+.list-group-item {
+	min-height: 40px;
+}
+
+.list-group-item.active {
+	font-weight: bold;
+}
