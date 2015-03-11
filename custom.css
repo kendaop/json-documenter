@@ -6,10 +6,12 @@ body {
 
 .badge {
 	margin-left: 4px;
+	float: right;
 }
 
 .content {
 	font-style: italic;
+	overflow-x: hidden;
 }
 
 .type.badge {
@@ -21,7 +23,7 @@ body {
 	color: #FF8822;
 }
 
-.type.integer {
+.type.object {
 	color: #22FF88;
 }
 
@@ -33,6 +35,7 @@ body {
 	padding: 0;
 	margin-right: 4px;
 	font-weight: bold;
+	overflow-x: hidden;
 }
 
 .list-group .btn {
@@ -44,6 +47,11 @@ body {
 
 .list-group-item {
 	min-height: 40px;
+        min-width: 300px;
+}
+
+.list-group-item-info {
+	font-weight: bold;
 }
 
 .list-group-item.active {
