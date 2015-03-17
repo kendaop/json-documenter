@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="printer/prettify.js" defer="defer"></script>
+<link href="https://google-code-prettify.googlecode.com/svn/loader/skins/sunburst.css" rel="stylesheet"/>
+<script>     
+    printer_update = function() {
+        $('#code').removeClass('prettyprinted');
+        var ajax = new XMLHttpRequest();
+        ajax.overrideMimeType("application/json");
+        ajax.open('GET', 'json/' + $('#selected-json').val(), true);
+        ajax.onreadystatechange = function() {
+                if (ajax.readyState == 4 && ajax.status == "200") {
+                        document.getElementById("code").innerHTML = ajax.responseText
+                                .replace(/</g, "&lt;") // Convert all html brackets to appropriate entities.			
+                        prettyPrint();
+                }
+        };
+        ajax.send(null);
+    };
+    
+    printer_update();
+</script>
+</head>
+<body style="background: #fff">
+	<div style="font-family: 'Helvetica'">
+		<pre class="prettyprint linenums" id="code" style="border:3px solid #c00"></pre>
+	</div>
+</body>
+</html>

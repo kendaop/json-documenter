@@ -1,0 +1,1495 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "Updated Schema",
+  "required": false,
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "id": "http://jsonschema.net/identifier",
+      "required": false
+    },
+    "pub_resourceManifest": {
+      "type": "array",
+      "id": "http://jsonschema.net/pub_resourceManifest",
+      "required": false,
+      "items": {
+        "type": "string",
+        "id": "http://jsonschema.net/pub_resourceManifest/0",
+        "required": false
+      }
+    },
+    "pub_schemaVersion": {
+      "type": "number",
+      "id": "http://jsonschema.net/pub_schemaVersion",
+      "required": false
+    },
+    "testPart": {
+      "type": "array",
+      "id": "http://jsonschema.net/testPart",
+      "required": false,
+      "items": {
+        "type": "object",
+        "id": "http://jsonschema.net/testPart/0",
+        "required": false,
+        "properties": {
+          "assessmentSection": {
+            "type": "array",
+            "id": "http://jsonschema.net/testPart/0/assessmentSection",
+            "required": false,
+            "items": {
+              "type": "object",
+              "id": "http://jsonschema.net/testPart/0/assessmentSection/0",
+              "required": false,
+              "properties": {
+                "assessmentItem": {
+                  "type": "array",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem",
+                  "required": false,
+                  "items": {
+                    "type": "object",
+                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0",
+                    "required": false,
+                    "properties": {
+                      "assessmentItemContent": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent",
+                        "required": false,
+                        "properties": {
+                          "attributes": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes",
+                            "required": false,
+                            "properties": {
+                              "adaptive": {
+                                "type": "boolean",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/adaptive",
+                                "required": false
+                              },
+                              "identifier": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/identifier",
+                                "required": false
+                              },
+                              "label": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/label",
+                                "required": false
+                              },
+                              "timeDependent": {
+                                "type": "boolean",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/timeDependent",
+                                "required": false
+                              },
+                              "title": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/title",
+                                "required": false
+                              },
+                              "toolName": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/toolName",
+                                "required": false
+                              },
+                              "toolVersion": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/toolVersion",
+                                "required": false
+                              },
+                              "xml:lang": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/xml:lang",
+                                "required": false
+                              }
+                            }
+                          },
+                          "body": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body",
+                            "required": false,
+                            "properties": {
+                              "body": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/body",
+                                "required": false
+                              },
+                              "debug": {
+                                "type": "object",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/debug",
+                                "required": false,
+                                "properties": {
+                                  "relatedItem": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/debug/relatedItem",
+                                    "required": false
+                                  }
+                                }
+                              },
+                              "elements": {
+                                "type": "object",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements",
+                                "required": false,
+                                "properties": {
+                                  "interaction_associateinteraction_54ff20b7c443d830003141": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141",
+                                    "required": false,
+                                    "properties": {
+                                      "attributes": {
+                                        "type": "object",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/attributes",
+                                        "required": false,
+                                        "properties": {
+                                          "maxAssociations": {
+                                            "type": "number",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/attributes/maxAssociations",
+                                            "required": false
+                                          },
+                                          "minAssociations": {
+                                            "type": "number",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/attributes/minAssociations",
+                                            "required": false
+                                          },
+                                          "responseIdentifier": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/attributes/responseIdentifier",
+                                            "required": false
+                                          },
+                                          "shuffle": {
+                                            "type": "boolean",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/attributes/shuffle",
+                                            "required": false
+                                          }
+                                        }
+                                      },
+                                      "choices": {
+                                        "type": "object",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices",
+                                        "required": false,
+                                        "properties": {
+                                          "choice_simpleassociablechoice_54ff20b7c8a8d721194192": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "fixed": {
+                                                    "type": "boolean",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/attributes/fixed",
+                                                    "required": false
+                                                  },
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/attributes/identifier",
+                                                    "required": false
+                                                  },
+                                                  "matchMax": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/attributes/matchMax",
+                                                    "required": false
+                                                  },
+                                                  "matchMin": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/attributes/matchMin",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "body": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body",
+                                                "required": false,
+                                                "properties": {
+                                                  "body": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/body",
+                                                    "required": false
+                                                  },
+                                                  "debug": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/debug",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "relatedItem": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/debug/relatedItem",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "elements": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "img_54ff20b7cadb5558364716": {
+                                                        "type": "object",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements/img_54ff20b7cadb5558364716",
+                                                        "required": false,
+                                                        "properties": {
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements/img_54ff20b7cadb5558364716/attributes",
+                                                            "required": false,
+                                                            "properties": {
+                                                              "alt": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements/img_54ff20b7cadb5558364716/attributes/alt",
+                                                                "required": false
+                                                              },
+                                                              "src": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements/img_54ff20b7cadb5558364716/attributes/src",
+                                                                "required": false
+                                                              }
+                                                            }
+                                                          },
+                                                          "qtiClass": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements/img_54ff20b7cadb5558364716/qtiClass",
+                                                            "required": false
+                                                          },
+                                                          "serial": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/elements/img_54ff20b7cadb5558364716/serial",
+                                                            "required": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "serial": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/body/serial",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "identifier": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/identifier",
+                                                "required": false
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/qtiClass",
+                                                "required": false
+                                              },
+                                              "serial": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7c8a8d721194192/serial",
+                                                "required": false
+                                              }
+                                            }
+                                          },
+                                          "choice_simpleassociablechoice_54ff20b7ce07d593746236": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "fixed": {
+                                                    "type": "boolean",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/attributes/fixed",
+                                                    "required": false
+                                                  },
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/attributes/identifier",
+                                                    "required": false
+                                                  },
+                                                  "matchMax": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/attributes/matchMax",
+                                                    "required": false
+                                                  },
+                                                  "matchMin": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/attributes/matchMin",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "body": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body",
+                                                "required": false,
+                                                "properties": {
+                                                  "body": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/body",
+                                                    "required": false
+                                                  },
+                                                  "debug": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/debug",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "relatedItem": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/debug/relatedItem",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "elements": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "img_54ff20b7d078d520426259": {
+                                                        "type": "object",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements/img_54ff20b7d078d520426259",
+                                                        "required": false,
+                                                        "properties": {
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements/img_54ff20b7d078d520426259/attributes",
+                                                            "required": false,
+                                                            "properties": {
+                                                              "alt": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements/img_54ff20b7d078d520426259/attributes/alt",
+                                                                "required": false
+                                                              },
+                                                              "src": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements/img_54ff20b7d078d520426259/attributes/src",
+                                                                "required": false
+                                                              }
+                                                            }
+                                                          },
+                                                          "qtiClass": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements/img_54ff20b7d078d520426259/qtiClass",
+                                                            "required": false
+                                                          },
+                                                          "serial": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/elements/img_54ff20b7d078d520426259/serial",
+                                                            "required": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "serial": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/body/serial",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "identifier": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/identifier",
+                                                "required": false
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/qtiClass",
+                                                "required": false
+                                              },
+                                              "serial": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7ce07d593746236/serial",
+                                                "required": false
+                                              }
+                                            }
+                                          },
+                                          "choice_simpleassociablechoice_54ff20b7d3a55488302210": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "fixed": {
+                                                    "type": "boolean",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/attributes/fixed",
+                                                    "required": false
+                                                  },
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/attributes/identifier",
+                                                    "required": false
+                                                  },
+                                                  "matchMax": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/attributes/matchMax",
+                                                    "required": false
+                                                  },
+                                                  "matchMin": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/attributes/matchMin",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "body": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body",
+                                                "required": false,
+                                                "properties": {
+                                                  "body": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/body",
+                                                    "required": false
+                                                  },
+                                                  "debug": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/debug",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "relatedItem": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/debug/relatedItem",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "elements": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "img_54ff20b7d5d7d426573469": {
+                                                        "type": "object",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements/img_54ff20b7d5d7d426573469",
+                                                        "required": false,
+                                                        "properties": {
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements/img_54ff20b7d5d7d426573469/attributes",
+                                                            "required": false,
+                                                            "properties": {
+                                                              "alt": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements/img_54ff20b7d5d7d426573469/attributes/alt",
+                                                                "required": false
+                                                              },
+                                                              "src": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements/img_54ff20b7d5d7d426573469/attributes/src",
+                                                                "required": false
+                                                              }
+                                                            }
+                                                          },
+                                                          "qtiClass": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements/img_54ff20b7d5d7d426573469/qtiClass",
+                                                            "required": false
+                                                          },
+                                                          "serial": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/elements/img_54ff20b7d5d7d426573469/serial",
+                                                            "required": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "serial": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/body/serial",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "identifier": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/identifier",
+                                                "required": false
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/qtiClass",
+                                                "required": false
+                                              },
+                                              "serial": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d3a55488302210/serial",
+                                                "required": false
+                                              }
+                                            }
+                                          },
+                                          "choice_simpleassociablechoice_54ff20b7d942d993616674": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "fixed": {
+                                                    "type": "boolean",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/attributes/fixed",
+                                                    "required": false
+                                                  },
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/attributes/identifier",
+                                                    "required": false
+                                                  },
+                                                  "matchMax": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/attributes/matchMax",
+                                                    "required": false
+                                                  },
+                                                  "matchMin": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/attributes/matchMin",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "body": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body",
+                                                "required": false,
+                                                "properties": {
+                                                  "body": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/body",
+                                                    "required": false
+                                                  },
+                                                  "debug": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/debug",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "relatedItem": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/debug/relatedItem",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "elements": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "img_54ff20b7dbb3d771815247": {
+                                                        "type": "object",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements/img_54ff20b7dbb3d771815247",
+                                                        "required": false,
+                                                        "properties": {
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements/img_54ff20b7dbb3d771815247/attributes",
+                                                            "required": false,
+                                                            "properties": {
+                                                              "alt": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements/img_54ff20b7dbb3d771815247/attributes/alt",
+                                                                "required": false
+                                                              },
+                                                              "src": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements/img_54ff20b7dbb3d771815247/attributes/src",
+                                                                "required": false
+                                                              }
+                                                            }
+                                                          },
+                                                          "qtiClass": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements/img_54ff20b7dbb3d771815247/qtiClass",
+                                                            "required": false
+                                                          },
+                                                          "serial": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/elements/img_54ff20b7dbb3d771815247/serial",
+                                                            "required": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "serial": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/body/serial",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "identifier": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/identifier",
+                                                "required": false
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/qtiClass",
+                                                "required": false
+                                              },
+                                              "serial": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7d942d993616674/serial",
+                                                "required": false
+                                              }
+                                            }
+                                          },
+                                          "choice_simpleassociablechoice_54ff20b7dee05001237657": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "fixed": {
+                                                    "type": "boolean",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/attributes/fixed",
+                                                    "required": false
+                                                  },
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/attributes/identifier",
+                                                    "required": false
+                                                  },
+                                                  "matchMax": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/attributes/matchMax",
+                                                    "required": false
+                                                  },
+                                                  "matchMin": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/attributes/matchMin",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "body": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body",
+                                                "required": false,
+                                                "properties": {
+                                                  "body": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/body",
+                                                    "required": false
+                                                  },
+                                                  "debug": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/debug",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "relatedItem": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/debug/relatedItem",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "elements": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "img_54ff20b7e1515920874883": {
+                                                        "type": "object",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements/img_54ff20b7e1515920874883",
+                                                        "required": false,
+                                                        "properties": {
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements/img_54ff20b7e1515920874883/attributes",
+                                                            "required": false,
+                                                            "properties": {
+                                                              "alt": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements/img_54ff20b7e1515920874883/attributes/alt",
+                                                                "required": false
+                                                              },
+                                                              "src": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements/img_54ff20b7e1515920874883/attributes/src",
+                                                                "required": false
+                                                              }
+                                                            }
+                                                          },
+                                                          "qtiClass": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements/img_54ff20b7e1515920874883/qtiClass",
+                                                            "required": false
+                                                          },
+                                                          "serial": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/elements/img_54ff20b7e1515920874883/serial",
+                                                            "required": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "serial": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/body/serial",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "identifier": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/identifier",
+                                                "required": false
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/qtiClass",
+                                                "required": false
+                                              },
+                                              "serial": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7dee05001237657/serial",
+                                                "required": false
+                                              }
+                                            }
+                                          },
+                                          "choice_simpleassociablechoice_54ff20b7e4bc5668772945": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "fixed": {
+                                                    "type": "boolean",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/attributes/fixed",
+                                                    "required": false
+                                                  },
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/attributes/identifier",
+                                                    "required": false
+                                                  },
+                                                  "matchMax": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/attributes/matchMax",
+                                                    "required": false
+                                                  },
+                                                  "matchMin": {
+                                                    "type": "number",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/attributes/matchMin",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "body": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body",
+                                                "required": false,
+                                                "properties": {
+                                                  "body": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/body",
+                                                    "required": false
+                                                  },
+                                                  "debug": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/debug",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "relatedItem": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/debug/relatedItem",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "elements": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "img_54ff20b7e6eed558728976": {
+                                                        "type": "object",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements/img_54ff20b7e6eed558728976",
+                                                        "required": false,
+                                                        "properties": {
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements/img_54ff20b7e6eed558728976/attributes",
+                                                            "required": false,
+                                                            "properties": {
+                                                              "alt": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements/img_54ff20b7e6eed558728976/attributes/alt",
+                                                                "required": false
+                                                              },
+                                                              "src": {
+                                                                "type": "string",
+                                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements/img_54ff20b7e6eed558728976/attributes/src",
+                                                                "required": false
+                                                              }
+                                                            }
+                                                          },
+                                                          "qtiClass": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements/img_54ff20b7e6eed558728976/qtiClass",
+                                                            "required": false
+                                                          },
+                                                          "serial": {
+                                                            "type": "string",
+                                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/elements/img_54ff20b7e6eed558728976/serial",
+                                                            "required": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "serial": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/body/serial",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "identifier": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/identifier",
+                                                "required": false
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/qtiClass",
+                                                "required": false
+                                              },
+                                              "serial": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/choices/choice_simpleassociablechoice_54ff20b7e4bc5668772945/serial",
+                                                "required": false
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "prompt": {
+                                        "type": "object",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/prompt",
+                                        "required": false,
+                                        "properties": {
+                                          "body": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/prompt/body",
+                                            "required": false
+                                          },
+                                          "debug": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/prompt/debug",
+                                            "required": false,
+                                            "properties": {
+                                              "relatedItem": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/prompt/debug/relatedItem",
+                                                "required": false
+                                              }
+                                            }
+                                          },
+                                          "elements": {
+                                            "type": "array",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/prompt/elements",
+                                            "required": false
+                                          },
+                                          "serial": {
+                                            "type": "string",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/prompt/serial",
+                                            "required": false
+                                          }
+                                        }
+                                      },
+                                      "qtiClass": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/qtiClass",
+                                        "required": false
+                                      },
+                                      "serial": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/interaction_associateinteraction_54ff20b7c443d830003141/serial",
+                                        "required": false
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "serial": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/serial",
+                                "required": false
+                              }
+                            }
+                          },
+                          "feedbacks": {
+                            "type": "array",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/feedbacks",
+                            "required": false
+                          },
+                          "identifier": {
+                            "type": "string",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/identifier",
+                            "required": false
+                          },
+                          "namespaces": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/namespaces",
+                            "required": false,
+                            "properties": {
+                              "type": "string",
+                              "required": false,
+                              "xml": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/namespaces/xml",
+                                "required": false
+                              },
+                              "xsi": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/namespaces/xsi",
+                                "required": false
+                              }
+                            }
+                          },
+                          "outcomes": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes",
+                            "required": false,
+                            "properties": {
+                              "outcomedeclaration_54ff20b7c0d8d398789643": {
+                                "type": "object",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643",
+                                "required": false,
+                                "properties": {
+                                  "attributes": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/attributes",
+                                    "required": false,
+                                    "properties": {
+                                      "baseType": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/attributes/baseType",
+                                        "required": false
+                                      },
+                                      "cardinality": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/attributes/cardinality",
+                                        "required": false
+                                      },
+                                      "identifier": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/attributes/identifier",
+                                        "required": false
+                                      }
+                                    }
+                                  },
+                                  "defaultValue": {
+                                    "type": "null",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/defaultValue",
+                                    "required": false
+                                  },
+                                  "identifier": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/identifier",
+                                    "required": false
+                                  },
+                                  "qtiClass": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/qtiClass",
+                                    "required": false
+                                  },
+                                  "serial": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ff20b7c0d8d398789643/serial",
+                                    "required": false
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "qtiClass": {
+                            "type": "string",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/qtiClass",
+                            "required": false
+                          },
+                          "responseProcessing": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing",
+                            "required": false,
+                            "properties": {
+                              "attributes": {
+                                "type": "array",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/attributes",
+                                "required": false
+                              },
+                              "processingType": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/processingType",
+                                "required": false
+                              },
+                              "qtiClass": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/qtiClass",
+                                "required": false
+                              },
+                              "responseRules": {
+                                "type": "array",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules",
+                                "required": false,
+                                "items": {
+                                  "type": "object",
+                                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0",
+                                  "required": false,
+                                  "properties": {
+                                    "qtiClass": {
+                                      "type": "string",
+                                      "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/qtiClass",
+                                      "required": false
+                                    },
+                                    "responseElse": {
+                                      "type": "object",
+                                      "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse",
+                                      "required": false,
+                                      "properties": {
+                                        "qtiClass": {
+                                          "type": "string",
+                                          "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/qtiClass",
+                                          "required": false
+                                        },
+                                        "responseRules": {
+                                          "type": "array",
+                                          "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules",
+                                          "required": false,
+                                          "items": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/attributes/identifier",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "expression": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/expression",
+                                                "required": false,
+                                                "properties": {
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/expression/attributes",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "identifier": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/expression/attributes/identifier",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "qtiClass": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/expression/qtiClass",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseElse/responseRules/0/qtiClass",
+                                                "required": false
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "responseIf": {
+                                      "type": "object",
+                                      "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf",
+                                      "required": false,
+                                      "properties": {
+                                        "expression": {
+                                          "type": "object",
+                                          "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression",
+                                          "required": false,
+                                          "properties": {
+                                            "expressions": {
+                                              "type": "array",
+                                              "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression/expressions",
+                                              "required": false,
+                                              "items": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression/expressions/0",
+                                                "required": false,
+                                                "properties": {
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression/expressions/0/attributes",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "identifier": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression/expressions/0/attributes/identifier",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "qtiClass": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression/expressions/0/qtiClass",
+                                                    "required": false
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "qtiClass": {
+                                              "type": "string",
+                                              "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/expression/qtiClass",
+                                              "required": false
+                                            }
+                                          }
+                                        },
+                                        "qtiClass": {
+                                          "type": "string",
+                                          "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/qtiClass",
+                                          "required": false
+                                        },
+                                        "responseRules": {
+                                          "type": "array",
+                                          "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules",
+                                          "required": false,
+                                          "items": {
+                                            "type": "object",
+                                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0",
+                                            "required": false,
+                                            "properties": {
+                                              "attributes": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/attributes",
+                                                "required": false,
+                                                "properties": {
+                                                  "identifier": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/attributes/identifier",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "expression": {
+                                                "type": "object",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/expression",
+                                                "required": false,
+                                                "properties": {
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/expression/attributes",
+                                                    "required": false,
+                                                    "properties": {
+                                                      "baseType": {
+                                                        "type": "string",
+                                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/expression/attributes/baseType",
+                                                        "required": false
+                                                      }
+                                                    }
+                                                  },
+                                                  "qtiClass": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/expression/qtiClass",
+                                                    "required": false
+                                                  },
+                                                  "value": {
+                                                    "type": "string",
+                                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/expression/value",
+                                                    "required": false
+                                                  }
+                                                }
+                                              },
+                                              "qtiClass": {
+                                                "type": "string",
+                                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/responseRules/0/responseIf/responseRules/0/qtiClass",
+                                                "required": false
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "serial": {
+                                "type": "string",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/serial",
+                                "required": false
+                              }
+                            }
+                          },
+                          "responses": {
+                            "type": "object",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses",
+                            "required": false,
+                            "properties": {
+                              "responsedeclaration_54ff20b7bee4d902625449": {
+                                "type": "object",
+                                "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449",
+                                "required": false,
+                                "properties": {
+                                  "areaMapping": {
+                                    "type": "array",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/areaMapping",
+                                    "required": false
+                                  },
+                                  "attributes": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/attributes",
+                                    "required": false,
+                                    "properties": {
+                                      "baseType": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/attributes/baseType",
+                                        "required": false
+                                      },
+                                      "cardinality": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/attributes/cardinality",
+                                        "required": false
+                                      },
+                                      "identifier": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/attributes/identifier",
+                                        "required": false
+                                      }
+                                    }
+                                  },
+                                  "correctResponses": {
+                                    "type": "array",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/correctResponses",
+                                    "required": false,
+                                    "items": {
+                                      "type": "string",
+                                      "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/correctResponses/0",
+                                      "required": false
+                                    }
+                                  },
+                                  "feedbackRules": {
+                                    "type": "array",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/feedbackRules",
+                                    "required": false
+                                  },
+                                  "howMatch": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/howMatch",
+                                    "required": false
+                                  },
+                                  "identifier": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/identifier",
+                                    "required": false
+                                  },
+                                  "mappingAttributes": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/mappingAttributes",
+                                    "required": false,
+                                    "properties": {
+                                      "defaultValue": {
+                                        "type": "number",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/mappingAttributes/defaultValue",
+                                        "required": false
+                                      }
+                                    }
+                                  },
+                                  "mapping": {
+                                    "type": "object",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/mapping",
+                                    "required": false,
+                                    "properties": {
+                                      "Ea Mo": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/mapping/Ea Mo",
+                                        "required": false
+                                      },
+                                      "Ju Ga": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/mapping/Ju Ga",
+                                        "required": false
+                                      },
+                                      "Ne Tr": {
+                                        "type": "string",
+                                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/mapping/Ne Tr",
+                                        "required": false
+                                      }
+                                    }
+                                  },
+                                  "qtiClass": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/qtiClass",
+                                    "required": false
+                                  },
+                                  "serial": {
+                                    "type": "string",
+                                    "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses/responsedeclaration_54ff20b7bee4d902625449/serial",
+                                    "required": false
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "serial": {
+                            "type": "string",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/serial",
+                            "required": false
+                          },
+                          "stylesheets": {
+                            "type": "array",
+                            "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets",
+                            "required": false
+                          }
+                        }
+                      },
+                      "category": {
+                        "type": "object",
+                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/category",
+                        "required": false
+                      },
+                      "fixed": {
+                        "type": "boolean",
+                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/fixed",
+                        "required": false
+                      },
+                      "required": {
+                        "type": "boolean",
+                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/required",
+                        "required": false
+                      },
+                      "timeDependent": {
+                        "type": "boolean",
+                        "id": "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/timeDependent",
+                        "required": false
+                      }
+                    }
+                  }
+                },
+                "fixed": {
+                  "type": "boolean",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/fixed",
+                  "required": false
+                },
+                "identifier": {
+                  "type": "string",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/identifier",
+                  "required": false
+                },
+                "keepTogether": {
+                  "type": "boolean",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/keepTogether",
+                  "required": false
+                },
+                "required": {
+                  "type": "boolean",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/required",
+                  "required": false
+                },
+                "title": {
+                  "type": "string",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/title",
+                  "required": false
+                },
+                "visible": {
+                  "type": "boolean",
+                  "id": "http://jsonschema.net/testPart/0/assessmentSection/0/visible",
+                  "required": false
+                }
+              }
+            }
+          },
+          "identifier": {
+            "type": "string",
+            "id": "http://jsonschema.net/testPart/0/identifier",
+            "required": false
+          },
+          "itemSessionControl": {
+            "type": "object",
+            "id": "http://jsonschema.net/testPart/0/itemSessionControl",
+            "required": false,
+            "properties": {
+              "allowComment": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/allowComment",
+                "required": false
+              },
+              "allowReview": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/allowReview",
+                "required": false
+              },
+              "allowSkipping": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/allowSkipping",
+                "required": false
+              },
+              "maxAttempts": {
+                "type": "number",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/maxAttempts",
+                "required": false
+              },
+              "showFeedback": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/showFeedback",
+                "required": false
+              },
+              "showSolution": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/showSolution",
+                "required": false
+              },
+              "validateResponses": {
+                "type": "boolean",
+                "id": "http://jsonschema.net/testPart/0/itemSessionControl/validateResponses",
+                "required": false
+              }
+            }
+          },
+          "navigationMode": {
+            "type": "string",
+            "id": "http://jsonschema.net/testPart/0/navigationMode",
+            "required": false
+          },
+          "submissionMode": {
+            "type": "string",
+            "id": "http://jsonschema.net/testPart/0/submissionMode",
+            "required": false
+          }
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "id": "http://jsonschema.net/title",
+      "required": false
+    }
+  }
+}

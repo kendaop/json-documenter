@@ -1,0 +1,32 @@
+.content-container .raw-json, .content-container .pretty-json, .content-container .pretty-schema {
+    display: none;
+}
+
+.content-container .raw-json.active, .content-container .pretty-json.active, .content-container .pretty-schema.active {
+    display: block;
+}
+
+.content-container {
+    padding: 15px;
+}
+
+body {
+    padding-top: 15px;
+}
+
+.row {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+input#selected-json {
+    margin-bottom: 10px;
+}
+
+.nav-tabs > li {
+    cursor: pointer;
+}
+
+.raw-json {
+    -webkit-transform: rotateX(0deg);
+}

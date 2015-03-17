@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "Dynamic Data Structure Schema",
+  "type": "object",
+  "properties": {
+    "dynamic": {
+      "id": "dynamic",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "id",
+          "type": "string"
+        },
+        "state": {
+          "id": "state",
+          "type": "object",
+          "properties": {
+            "value": {
+              "id": "value",
+              "type": "null"
+            }
+          }
+        },
+        "events": {
+          "id": "events",
+          "type": "array",
+          "items": {}
+        },
+        "current": {
+          "id": "current",
+          "type": "integer"
+        },
+        "remainingTime": {
+          "id": "remainingTime",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "state",
+        "events",
+        "current",
+        "remainingTime"
+      ]
+    },
+    "testPart": {
+      "id": "testPart",
+      "type": "array",
+      "items": {
+        "id": "auto-generated-schema-600"
+      }
+    }
+  },
+  "required": [
+    "dynamic",
+    "testPart"
+  ]
+}

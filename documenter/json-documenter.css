@@ -40,7 +40,7 @@ body {
 
 .list-group .btn {
 	width: 100%;
-	background-color: white;
+	background-color: transparent;
 	padding: 0;
 	text-align: left;
 }
