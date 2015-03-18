@@ -1,0 +1,557 @@
+{
+	"type" : "object",
+	"$schema" : "http://json-schema.org/draft-03/schema",
+	"id" : "Test Package JSON",
+	"required" : false,
+	"properties" : {
+		"identifier" : {
+			"type" : "string",
+			"id" : "http://jsonschema.net/identifier",
+			"required" : false
+		},
+		"pub_resourceManifest" : {
+			"type" : "array",
+			"id" : "http://jsonschema.net/pub_resourceManifest",
+			"required" : false,
+			"items" : {
+				"type" : "string",
+				"id" : "http://jsonschema.net/pub_resourceManifest/0",
+				"required" : false
+			}
+
+		},
+		"pub_schemaVersion" : {
+			"type" : "number",
+			"id" : "http://jsonschema.net/pub_schemaVersion",
+			"required" : false
+		},
+		"testPart" : {
+			"type" : "array",
+			"id" : "http://jsonschema.net/testPart",
+			"required" : false,
+			"items" : [{
+					"type" : "object",
+					"id" : "http://jsonschema.net/testPart/0",
+					"required" : false,
+					"properties" : {
+						"assessmentSection" : {
+							"type" : "array",
+							"id" : "http://jsonschema.net/testPart/0/assessmentSection",
+							"required" : false,
+							"items" : {
+								"type" : "object",
+								"id" : "http://jsonschema.net/testPart/0/assessmentSection/0",
+								"required" : false,
+								"properties" : {
+									"assessmentItem" : {
+										"type" : "array",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem",
+										"required" : false,
+										"items" : {
+											"type" : "object",
+											"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0",
+											"required" : false,
+											"properties" : {
+												"assessmentItemContent" : {
+													"type" : "object",
+													"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent",
+													"required" : false,
+													"properties" : {
+														"attributes" : {
+															"type" : "object",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes",
+															"required" : false,
+															"properties" : {
+																"adaptive" : {
+																	"type" : "boolean",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/adaptive",
+																	"required" : false
+																},
+																"identifier" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/identifier",
+																	"required" : false
+																},
+																"label" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/label",
+																	"required" : false
+																},
+																"timeDependent" : {
+																	"type" : "boolean",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/timeDependent",
+																	"required" : false
+																},
+																"title" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/title",
+																	"required" : false
+																},
+																"toolName" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/toolName",
+																	"required" : false
+																},
+																"toolVersion" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/toolVersion",
+																	"required" : false
+																},
+																"xml:lang" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/attributes/xml:lang",
+																	"required" : false
+																}
+															}
+														},
+														"body" : {
+															"type" : "object",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body",
+															"required" : false,
+															"properties" : {
+																"body" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/body",
+																	"required" : false
+																},
+																"debug" : {
+																	"type" : "object",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/debug",
+																	"required" : false,
+																	"properties" : {
+																		"relatedItem" : {
+																			"type" : "string",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/debug/relatedItem",
+																			"required" : false
+																		}
+																	}
+																},
+																"elements" : {
+																	"type" : "object",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements",
+																	"required" : false,
+																	"properties" : {
+																		"img_54ca9a9f759f4967510828" : {
+																			"type" : "object",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828",
+																			"required" : false,
+																			"properties" : {
+																				"attributes" : {
+																					"type" : "object",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/attributes",
+																					"required" : false,
+																					"properties" : {
+																						"alt" : {
+																							"type" : "string",
+																							"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/attributes/alt",
+																							"required" : false
+																						},
+																						"height" : {
+																							"type" : "number",
+																							"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/attributes/height",
+																							"required" : false
+																						},
+																						"src" : {
+																							"type" : "string",
+																							"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/attributes/src",
+																							"required" : false
+																						},
+																						"width" : {
+																							"type" : "number",
+																							"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/attributes/width",
+																							"required" : false
+																						}
+																					}
+																				},
+																				"qtiClass" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/qtiClass",
+																					"required" : false
+																				},
+																				"serial" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/elements/img_54ca9a9f759f4967510828/serial",
+																					"required" : false
+																				}
+																			}
+																		}
+																	}
+																},
+																"serial" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/body/serial",
+																	"required" : false
+																}
+															}
+														},
+														"feedbacks" : {
+															"type" : "array",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/feedbacks",
+															"required" : false
+														},
+														"identifier" : {
+															"type" : "string",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/identifier",
+															"required" : false
+														},
+														"namespaces" : {
+															"type" : "object",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/namespaces",
+															"required" : false,
+															"properties" : [ {
+																	"type" : "string",
+																	"required" : false
+																},
+																{"xml" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/namespaces/xml",
+																	"required" : false}
+																},
+																{"xsi" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/namespaces/xsi",
+																	"required" : false}
+																}
+															]
+														},
+														"outcomes" : {
+															"type" : "object",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes",
+															"required" : false,
+															"properties" : {
+																"outcomedeclaration_54ca9a9f755ad050155278" : {
+																	"type" : "object",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278",
+																	"required" : false,
+																	"properties" : {
+																		"attributes" : {
+																			"type" : "object",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/attributes",
+																			"required" : false,
+																			"properties" : {
+																				"baseType" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/attributes/baseType",
+																					"required" : false
+																				},
+																				"cardinality" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/attributes/cardinality",
+																					"required" : false
+																				},
+																				"identifier" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/attributes/identifier",
+																					"required" : false
+																				}
+																			}
+																		},
+																		"defaultValue" : {
+																			"type" : "null",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/defaultValue",
+																			"required" : false
+																		},
+																		"identifier" : {
+																			"type" : "string",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/identifier",
+																			"required" : false
+																		},
+																		"qtiClass" : {
+																			"type" : "string",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/qtiClass",
+																			"required" : false
+																		},
+																		"serial" : {
+																			"type" : "string",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/outcomes/outcomedeclaration_54ca9a9f755ad050155278/serial",
+																			"required" : false
+																		}
+																	}
+																}
+															}
+														},
+														"qtiClass" : {
+															"type" : "string",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/qtiClass",
+															"required" : false
+														},
+														"responseProcessing" : {
+															"type" : "object",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing",
+															"required" : false,
+															"properties" : {
+																"attributes" : {
+																	"type" : "array",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/attributes",
+																	"required" : false
+																},
+																"processingType" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/processingType",
+																	"required" : false
+																},
+																"qtiClass" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/qtiClass",
+																	"required" : false
+																},
+																"serial" : {
+																	"type" : "string",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responseProcessing/serial",
+																	"required" : false
+																}
+															}
+														},
+														"responses" : {
+															"type" : "array",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/responses",
+															"required" : false
+														},
+														"serial" : {
+															"type" : "string",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/serial",
+															"required" : false
+														},
+														"stylesheets" : {
+															"type" : "object",
+															"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets",
+															"required" : false,
+															"properties" : {
+																"stylesheet_54ca9a9f753e9734840175" : {
+																	"type" : "object",
+																	"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175",
+																	"required" : false,
+																	"properties" : {
+																		"attributes" : {
+																			"type" : "object",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/attributes",
+																			"required" : false,
+																			"properties" : {
+																				"href" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/attributes/href",
+																					"required" : false
+																				},
+																				"media" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/attributes/media",
+																					"required" : false
+																				},
+																				"title" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/attributes/title",
+																					"required" : false
+																				},
+																				"type" : {
+																					"type" : "string",
+																					"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/attributes/type",
+																					"required" : false
+																				}
+																			}
+																		},
+																		"qtiClass" : {
+																			"type" : "string",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/qtiClass",
+																			"required" : false
+																		},
+																		"serial" : {
+																			"type" : "string",
+																			"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/assessmentItemContent/stylesheets/stylesheet_54ca9a9f753e9734840175/serial",
+																			"required" : false
+																		}
+																	}
+																}
+															}
+														}
+													}
+												},
+												"category" : {
+													"type" : "object",
+													"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/category",
+													"required" : false
+												},
+												"fixed" : {
+													"type" : "boolean",
+													"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/fixed",
+													"required" : false
+												},
+												"required" : {
+													"type" : "boolean",
+													"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/required",
+													"required" : false
+												},
+												"timeDependent" : {
+													"type" : "boolean",
+													"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/assessmentItem/0/timeDependent",
+													"required" : false
+												}
+											}
+										}
+
+									},
+									"fixed" : {
+										"type" : "boolean",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/fixed",
+										"required" : false
+									},
+									"identifier" : {
+										"type" : "string",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/identifier",
+										"required" : false
+									},
+									"itemSessionControl" : {
+										"type" : "object",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl",
+										"required" : false,
+										"properties" : {
+											"allowComment" : {
+												"type" : "boolean",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/allowComment",
+												"required" : false
+											},
+											"allowReview" : {
+												"type" : "boolean",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/allowReview",
+												"required" : false
+											},
+											"allowSkipping" : {
+												"type" : "boolean",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/allowSkipping",
+												"required" : false
+											},
+											"maxAttempts" : {
+												"type" : "number",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/maxAttempts",
+												"required" : false
+											},
+											"showFeedback" : {
+												"type" : "boolean",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/showFeedback",
+												"required" : false
+											},
+											"showSolution" : {
+												"type" : "boolean",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/showSolution",
+												"required" : false
+											},
+											"validateResponses" : {
+												"type" : "boolean",
+												"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/itemSessionControl/validateResponses",
+												"required" : false
+											}
+										}
+									},
+									"keepTogether" : {
+										"type" : "boolean",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/keepTogether",
+										"required" : false
+									},
+									"required" : {
+										"type" : "boolean",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/required",
+										"required" : false
+									},
+									"title" : {
+										"type" : "string",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/title",
+										"required" : false
+									},
+									"visible" : {
+										"type" : "boolean",
+										"id" : "http://jsonschema.net/testPart/0/assessmentSection/0/visible",
+										"required" : false
+									}
+								}
+							}
+
+						},
+						"identifier" : {
+							"type" : "string",
+							"id" : "http://jsonschema.net/testPart/0/identifier",
+							"required" : false
+						},
+						"itemSessionControl" : {
+							"type" : "object",
+							"id" : "http://jsonschema.net/testPart/0/itemSessionControl",
+							"required" : false,
+							"properties" : {
+								"allowComment" : {
+									"type" : "boolean",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/allowComment",
+									"required" : false
+								},
+								"allowReview" : {
+									"type" : "boolean",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/allowReview",
+									"required" : false
+								},
+								"allowSkipping" : {
+									"type" : "boolean",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/allowSkipping",
+									"required" : false
+								},
+								"maxAttempts" : {
+									"type" : "number",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/maxAttempts",
+									"required" : false
+								},
+								"showFeedback" : {
+									"type" : "boolean",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/showFeedback",
+									"required" : false
+								},
+								"showSolution" : {
+									"type" : "boolean",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/showSolution",
+									"required" : false
+								},
+								"validateResponses" : {
+									"type" : "boolean",
+									"id" : "http://jsonschema.net/testPart/0/itemSessionControl/validateResponses",
+									"required" : false
+								}
+							}
+						},
+						"navigationMode" : {
+							"type" : "string",
+							"id" : "http://jsonschema.net/testPart/0/navigationMode",
+							"required" : false
+						},
+						"submissionMode" : {
+							"type" : "string",
+							"id" : "http://jsonschema.net/testPart/0/submissionMode",
+							"required" : false
+						}
+					}
+				}
+			]
+		},
+		"timeLimits" : {
+			"type" : "object",
+			"id" : "http://jsonschema.net/timeLimits",
+			"required" : false,
+			"properties" : {
+				"allowLateSubmission" : {
+					"type" : "boolean",
+					"id" : "http://jsonschema.net/timeLimits/allowLateSubmission",
+					"required" : false
+				},
+				"maxTime" : {
+					"type" : "number",
+					"id" : "http://jsonschema.net/timeLimits/maxTime",
+					"required" : false
+				},
+				"minTime" : {
+					"type" : "null",
+					"id" : "http://jsonschema.net/timeLimits/minTime",
+					"required" : false
+				}
+			}
+		},
+		"title" : {
+			"type" : "string",
+			"id" : "http://jsonschema.net/title",
+			"required" : false
+		}
+	}
+}

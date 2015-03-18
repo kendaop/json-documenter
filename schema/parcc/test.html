@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PARCC-ACR Test JSON Sample</title>
+<script src="prettify.js" defer="defer"></script>
+<link href="https://google-code-prettify.googlecode.com/svn/loader/skins/sunburst.css" rel="stylesheet"/>
+<script>
+	var ajax = new XMLHttpRequest();
+	ajax.overrideMimeType("application/json");
+	ajax.open('GET', 'test.json', true);
+	ajax.onreadystatechange = function() {
+		if (ajax.readyState == 4 && ajax.status == "200") {
+			document.getElementById("code").innerHTML = ajax.responseText.replace(/\n/g, "");
+			prettyPrint();
+		}
+	};
+	ajax.send(null); 
+</script>
+</head>
+<body style="background: #fff">
+	<div style="font-family: 'Helvetica'">
+		This is Test JSON sample for PARCC-ACR:
+		<pre class="prettyprint linenums" id="code" style="border:3px solid #c00"></pre>
+	</div>
+</body>
+</html>
