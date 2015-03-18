@@ -1,15 +1,19 @@
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>
     <script src='js/bootstrap.min.js'></script>
+    <script src='printer/printer.js'></script>
+	<script src="printer/prettify.js"></script>
+    <script src='documenter/documenter.js'></script>
+    <script src='schema/schema.js'></script>
+    <script src="lib/require.js"></script>
     
     <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'></link>
     <link rel='stylesheet' type='text/css' href='css/base.css'></link>
 </head>
 <body>
     <div class='row'>
-        <div class='col-xs-10 col-xs-offset-1'>
+        <div class='col-xs-12'>
             <form>
                <div class='col-xs-3  col-xs-offset-1 form-group'>
                     <label for="json-selector">Select One: </label>
@@ -36,6 +40,7 @@
                 <div class='col-xs-12 raw-json active'></div>
                 <div class='col-xs-12 pretty-json'></div>
                 <div class='col-xs-12 pretty-schema'></div>
+                <div class='inactive-box'><h1>Loading...</h1></div>
             </div>
         </div>
     </div>

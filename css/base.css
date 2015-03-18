@@ -30,3 +30,37 @@ input#selected-json {
 .raw-json {
     -webkit-transform: rotateX(0deg);
 }
+
+.inactive-box {
+    height: 100%;
+    background-color: gray;
+    position: relative;
+    z-index: 1000;
+}
+
+.inactive-box h1 {
+	text-align: center;
+	position: relative;
+	top: 35%;
+}
+
+.progress {
+    position: absolute;
+    z-index: 5000;
+    width: 80%;
+    top: 20px;
+    left: 10%;
+}
+
+.progress-bar {
+    min-width: 5%;
+}
+
+.btn > div:first-of-type.content {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.btn:hover {
+	color: inherit;
+}
